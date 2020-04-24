@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run eslint",
     "start": "node ./src/service/service.js",
+    "fix": "eslint --fix --ext .js src/",
     "eslint": "eslint --ext .js src/"
   },
   "repository": {
